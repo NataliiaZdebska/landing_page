@@ -1,0 +1,32 @@
+//benefits section
+.companies__logo {
+  max-width: 580px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-evenly;
+  flex-wrap: wrap;
+
+  .cmp_logo {
+    width: 27%;
+  }
+}
+
+.box_logo:hover {
+  transform: scale(1.1, 1.2);
+  cursor: pointer;
+}
+//the end of benefits section
+
+
+.tools__logos {
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+
+  img {
+    margin-right: 10px;
+  }
+}
