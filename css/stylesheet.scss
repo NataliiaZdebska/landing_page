@@ -3,5 +3,26 @@ $black: #000000;
 $minWidth: 375px;
 $maxWidth: 1440px;
 
+@mixin font_option ($fw,$fs) {
+  font-weight: $fw;
+  font-size: $fs;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin margin_ctr {
+  margin: 0 auto;
+}
+
 @import "elements/elements";
 @import "layout/layout";
