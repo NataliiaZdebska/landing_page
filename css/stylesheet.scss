@@ -500,3 +500,116 @@ main {
     }
   }
 }
+//the end of pricing section
+
+
+//reviews section
+.reviews {
+  margin: 105px auto;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  max-width: 1015px;
+  display: flex;
+  justify-content: center;
+
+  .review {
+    width: auto;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+    line-height: 32px;
+    overflow: auto;
+  }
+
+  .lft__block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    h5 {
+      @include font_option(700, 18px);
+    }
+
+    .subtitle {
+      @include font_option(500, 14px);
+      opacity: 0.6;
+    }
+
+
+    .title {
+      position: relative;
+      max-width: 540px;
+
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      h2, p {
+        padding-left: 95px;
+      }
+
+      h2 {
+        @include font_option(800, 48px);
+      }
+
+      p {
+        @include font_option(400, 18px);
+      }
+    }
+
+    .first_review {
+      max-width: 350px;
+      padding: 6px 32px 96px 64px;
+      margin-top: 24px;
+    }
+  }
+
+  .rght__block {
+
+    .second_review {
+      max-width: 445px;
+      padding: 39px 32px 14px;
+    }
+
+    .third_review {
+      max-width: 350px;
+      padding: 41px 32px 32px;
+    }
+  }
+}
+//the end of reviews section
+
+
+//tools section
+.tools {
+  @include margin_ctr;
+  @include flex-space-between;
+  font-family: "Inter", sans-serif;
+  max-width: 1194px;
+
+  .tools__text {
+    max-width: 445px;
+
+    h2 {
+      @include font_option(800, 48px);
+    }
+
+    p {
+      @include font_option(400, 18px);
+    }
+  }
+
+  .tools__logos {
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+
+    img {
+      margin-right: 10px;
+    }
+  }
+}
+//the end of tools section
