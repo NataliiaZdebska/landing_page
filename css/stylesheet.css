@@ -1,6 +1,6 @@
 .CTA_btn, .price_btn, .btn {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 14pxpx;
   width: 100%;
   border-radius: 10px;
   cursor: pointer;
@@ -221,36 +221,36 @@ main {
   max-width: 1215px;
   position: relative;
 }
-.intro .intro__text_block .intro__nav_item {
+.intro .intro__text-block .intro__nav_item {
   text-decoration: none;
   color: #000000;
   opacity: 0.3;
   margin-right: 20px;
 }
-.intro .intro__text_block .intro__nav_item:hover {
+.intro .intro__text-block .intro__nav_item:hover {
   color: #B00000;
   opacity: 1;
 }
-.intro .intro__text_block .intro__text {
+.intro .intro__text-block .intro__text {
   width: 100%;
   max-width: 610px;
 }
-.intro .intro__text_block .intro__text .intro__title {
+.intro .intro__text-block .intro__text .intro__title {
   font-weight: 800;
-  font-size: 64px;
+  font-size: 64pxpx;
   font-family: "Inter", sans-serif;
   line-height: 77px;
   margin: 26px auto 34px;
 }
-.intro .intro__text_block .intro__text .intro__main_text {
+.intro .intro__text-block .intro__text .intro__main_text {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 16pxpx;
   font-family: "Inter", sans-serif;
   width: 75%;
   opacity: 0.5;
   line-height: 28px;
 }
-.intro .intro__text_block .intro__btns {
+.intro .intro__text-block .intro__btns {
   margin-top: 60px;
 }
 .intro .intro__triangles {
@@ -304,12 +304,12 @@ main {
 }
 .benefits .benefits__text .title {
   font-weight: 800;
-  font-size: 48px;
+  font-size: 48pxpx;
   font-family: "Inter", sans-serif;
 }
 .benefits .benefits__text p {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 18pxpx;
   font-family: "Inter", sans-serif;
   line-height: 32px;
   opacity: 0.8;
@@ -330,11 +330,11 @@ main {
 }
 .benefits .benefits__btm .box_title {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 20pxpx;
 }
 .benefits .benefits__btm p {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 12pxpx;
 }
 
 .pricing {
@@ -345,21 +345,21 @@ main {
 }
 .pricing .title {
   font-weight: 600;
-  font-size: 50px;
+  font-size: 50pxpx;
   margin: 0 auto;
   width: 60%;
   text-align: center;
 }
 .pricing .subtitle {
   font-weight: 400;
-  font-size: 25px;
+  font-size: 25pxpx;
 }
 .pricing .term_option {
   padding: 20px;
 }
 .pricing .term_option .term {
   font-weight: 400;
-  font-size: 25px;
+  font-size: 25pxpx;
 }
 .pricing .term_option > span {
   margin-right: 27px;
@@ -367,12 +367,12 @@ main {
 }
 .pricing .term_option .discount {
   font-weight: 500;
-  font-size: 10px;
+  font-size: 10pxpx;
   background-color: #FFE87A;
 }
 .pricing .package_type {
   font-weight: 600;
-  font-size: 30px;
+  font-size: 30pxpx;
   display: flex;
   justify-content: space-around;
 }
@@ -411,19 +411,19 @@ main {
 }
 .packages .option_item .title {
   font-weight: 600;
-  font-size: 28px;
+  font-size: 28pxpx;
 }
 .packages .option_item + p {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 12pxpx;
 }
 .packages .option_item .price {
   font-weight: 600;
-  font-size: 42px;
+  font-size: 42pxpx;
 }
 .packages .option_item .per_month {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 14pxpx;
   margin: 0 auto;
 }
 .packages .option_item ul {
@@ -431,7 +431,7 @@ main {
 }
 .packages .option_item li {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 16pxpx;
   font-family: "Inter", sans-serif;
   line-height: 24px;
   margin-bottom: 15px;
@@ -465,11 +465,11 @@ main {
 }
 .reviews .lft__block h5 {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 18pxpx;
 }
 .reviews .lft__block .subtitle {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 14pxpx;
   opacity: 0.6;
 }
 .reviews .lft__block .title {
@@ -486,11 +486,11 @@ main {
 }
 .reviews .lft__block .title h2 {
   font-weight: 800;
-  font-size: 48px;
+  font-size: 48pxpx;
 }
 .reviews .lft__block .title p {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 18pxpx;
 }
 .reviews .lft__block .first_review {
   max-width: 350px;
@@ -519,11 +519,11 @@ main {
 }
 .tools .tools__text h2 {
   font-weight: 800;
-  font-size: 48px;
+  font-size: 48pxpx;
 }
 .tools .tools__text p {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 18pxpx;
 }
 
 .CTA {
@@ -542,7 +542,7 @@ main {
 }
 .CTA .CTA__text .CTA__title {
   font-weight: 600;
-  font-size: 64px;
+  font-size: 64pxpx;
 }
 .CTA .triangles__top_inner {
   width: 100%;
@@ -576,7 +576,7 @@ main {
 
 .hdr {
   font-weight: 600;
-  font-size: 15px;
+  font-size: 15pxpx;
   display: flex;
   align-items: center;
   justify-content: space-between;

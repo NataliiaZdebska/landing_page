@@ -5,7 +5,7 @@ $maxWidth: 1440px;
 
 @mixin font_option ($fw,$fs) {
   font-weight: $fw;
-  font-size: $fs;
+  font-size: $fs + px;
 }
 
 @mixin flex-center {
